@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - Entry point
- * Write a program that prints _putchar, followed by a new line.
+ * print_alphabet - check the code for Holberton School students.
  *
- * Return: always 0 (Success)
+ * Return: Always 0.
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
-	return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar (c);
+		c++;
+
+	}
+	_putchar ('\n');
+
 }
